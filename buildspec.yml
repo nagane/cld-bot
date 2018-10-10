@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Enterd the install phase
+      - apt-get update -y
+      - npm install claudia -g
+  pre_build:
+    commands:
+      - echo Enterd the pre_build phase
+      - npm install 
+  build:
+    commands:
+      - echo Enterd build phase
+  post_build:
+    commands:
+      - echo Enterd post_build phase
+
