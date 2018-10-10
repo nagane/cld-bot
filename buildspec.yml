@@ -14,7 +14,7 @@ phases:
   build:
     commands:
       - echo Enterd build phase
-      - cd ./bot && claudia update
+      - claudia update
   post_build:
     commands:
       - echo Enterd post_build phase
