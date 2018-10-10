@@ -9,7 +9,8 @@ phases:
   pre_build:
     commands:
       - echo Enterd the pre_build phase
-      - npm install 
+      - cd ./bot && npm install 
+      - python -V
   build:
     commands:
       - echo Enterd build phase
