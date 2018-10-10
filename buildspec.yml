@@ -6,6 +6,7 @@ phases:
       - echo Enterd the install phase
       - apt-get update -y
       - npm install claudia -g
+      - aws --version
   pre_build:
     commands:
       - echo Enterd the pre_build phase
